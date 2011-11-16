@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+.sprite(@url, @width, @height, @top, @left) {
+	display: block;
+	width: @width;
+	height: @height;
+	background-image: url("@url");
+	background-repeat: no-repeat;
+	background-position: @top @left;
+	text-indent: -10000px;
+}
+
+.image(@url, @width, @height) {
+	.sprite(@url, @width, @heigh, 'top','left')
+}
+
+header h1, header a.logo{
+	.image('/i/logo.png',100,100)
+	color:red;
+}

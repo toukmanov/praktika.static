@@ -1,0 +1,23 @@
+blockquote {
+    border-left: 5px solid #EEEEEE;
+    margin-bottom: 18px;
+    padding-left: 15px;
+}
+
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+blockquote small:before {
+    content: "— ";
+}
+blockquote small {
+    color: #BFBFBF;
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+}
