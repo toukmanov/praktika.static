@@ -35,7 +35,12 @@ $(document).ready(function(){
 		url_control.update
 	]);
 	url_control.init();
+	
+	$('#float_banner hide a').click(function(){
+		$('#float_banner').hide();
+	})
 });
+
 var scroll_menu={
 	div:null,
 	screen:[],
